@@ -8,6 +8,7 @@ public class VisitaRegular extends Evento {
 
     public VisitaRegular(double instante) {
         super(instante);
+        nombre = "Visita Regular";
     }
 
     public void determinarEvento() {

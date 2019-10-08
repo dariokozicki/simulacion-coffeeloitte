@@ -7,6 +7,7 @@ import java.util.ArrayList;
 public class VisitaExcepcional extends Evento {
     public VisitaExcepcional(double instante) {
         super(instante);
+        nombre = "Visita Excepcional";
     }
 
     public void determinarEvento() {

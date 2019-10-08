@@ -11,6 +11,7 @@ public class TomarCafe extends Evento {
     public TomarCafe(double instante){
         super(instante);
         inicializarTazas();
+        nombre = "Tomar Cafe";
     }
 
     public void inicializarTazas(){
@@ -53,4 +54,5 @@ public class TomarCafe extends Evento {
         }
         return eventos;
     }
+    
 }
