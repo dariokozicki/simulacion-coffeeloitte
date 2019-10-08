@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class CoffeLoitte {
 
     public static double frecuenciaVisitaRegular;
-    public static final int stockTotal = 450;
+    public static final int stockTotal = 190;
     public static int stockActual;
     public static double instanteFinal;
     public static Evento eventoActual;
@@ -42,7 +42,7 @@ public class CoffeLoitte {
     public static void fijarCondicionesIniciales(){
         eventosFuturos = new ArrayList<>();
         eventosFuturos.add(new TomarCafe(0));
-        frecuenciaVisitaRegular = 40; //una semana
+        frecuenciaVisitaRegular = 160; //una semana
         eventosFuturos.add(new VisitaRegular(frecuenciaVisitaRegular));
         instanteFinal = 19200; //diez años laborales
         stockActual = stockTotal;
